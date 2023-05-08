@@ -26,6 +26,9 @@ Création de l'environnement virtuel
 Exécutez le script creat_env.ssh sous git Bash
 ./create_env.ssh
 
+Installatin ndes dépendances
+pip install -r requirements.txt
+
 ```
 
 
