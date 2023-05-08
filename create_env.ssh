@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing virtualenv...
+pip install virtualenv
+
+echo Creating virtual environment...
+virtualenv .venv
+
+echo Activating virtual environment...
+source .venv/Scripts/activate
+
+echo Update pip for install...
+pip install --upgrade pip
+
+echo Package Listing...
+pip list
+
+echo restart Shell
